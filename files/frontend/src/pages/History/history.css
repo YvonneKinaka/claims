@@ -1,0 +1,75 @@
+.history-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .history-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .history-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .history-table th,
+  .history-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .history-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .history-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .claim-data {
+    text-align: left;
+    background-color: #eef3f7;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .claim-data p {
+    margin: 5px 0;
+  }
+  
+  .expand-btn {
+    background: none;
+    border: none;
+    color: #71391f;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .expand-btn:hover {
+    color: #d3d3d3;
+  }
+
+    /* Responsive Adjustments */
+@media (max-width: 768px) {
+
+  .history-container{
+    margin-top: 25%;
+  }
+
+
+}
+
+  

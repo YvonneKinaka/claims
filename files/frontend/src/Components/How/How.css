@@ -1,0 +1,102 @@
+.how-it-works {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+  
+  
+  .how-it-works p {
+    color: #000000;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .steps {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+  
+  .step {
+    background: white;
+    padding: 3rem;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .step img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .step h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .step p {
+    font-size: 1.1rem;
+    color: #4b5563;
+  }
+  
+  .try-btn {
+    display: inline-block;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+    background: #2563eb;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    text-decoration: none;
+  }
+  
+  .try-btn:hover {
+    background: #1e40af;
+  }
+
+  .step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  /* ==================== MOBILE VIEW ==================== */
+@media (max-width: 768px) {
+  .how-it-works {
+      padding: 2rem 1rem;
+  }
+
+  .steps {
+      grid-template-columns: 1fr; /* Makes steps stack vertically */
+      gap: 2rem; /* Reduce gap for better spacing */
+  }
+
+  .step {
+      padding: 2rem; /* Reduce padding for smaller screens */
+  }
+
+  .step img {
+      width: 100px; /* Reduce image size */
+      height: 100px;
+  }
+
+  .step h3 {
+      font-size: 1.5rem; /* Adjust heading size */
+  }
+
+  .step p {
+      font-size: 1rem; /* Adjust text size */
+  }
+
+  .try-btn {
+      font-size: 1rem;
+      padding: 0.8rem 1.5rem; /* Adjust button size */
+  }
+}

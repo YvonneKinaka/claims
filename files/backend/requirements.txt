@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+pandas == 2.2.2
+scikit-learn == 1.1.2
+python-multipart
+matplotlib
+numpy == 1.24.4
+python-jose[cryptography] 
+passlib[bcrypt] 
+sqlalchemy
+pydantic[email]
